@@ -1,26 +1,5 @@
-
-/* .hero {
-  background-image: url('/Catalog-Page/images/HeroSection.jpg');
-  background-size: cover;
-  background-position: center;
-  color: #fff;
-  text-align: center;
-  padding: 100px 0;
-  height: 547px;
-  box-shadow: 5px 10px 18px #424242;
-}
-
-.hero h1 {
-  font-size: 80px;
-  margin-top: 9rem;
-}
-
-.hero p {
-  font-size: 18px;
-} */
-/* Hero Section Styles */
 .hero {
-  background-image: url('/Catalog-Page/images/HeroSection.jpg');
+  background-image: url('/Catalog-Page/images/portadabiblioteca-1600x686.webp');
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -50,10 +29,10 @@
 }
 
 .hero h1 {
-  font-size: 3.5rem;
+  font-size: 5rem;
   font-weight: 700;
   margin: 0;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: 20px 20px 20px  rgba(0, 0, 0, 0.5);
 }
 
 .hero p {
@@ -70,10 +49,25 @@
 #type-buttons {
   display: flex;
   justify-content: center;
-  gap: 3rem;
-  align-items: center;
+  gap: 1rem; /* Adjust the gap between buttons as needed */
   margin-top: 10rem;
 }
+
+#type-buttons button {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  padding: 10px 20px;
+  cursor: pointer;
+
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#type-buttons button.active {
+  background-color: black;
+  color: white;
+}
+
 
 button {
   background-color: white;
@@ -86,10 +80,12 @@ button {
   border-radius: 3rem;
 }
 
-button:focus {
-  background-color: black;
+button.active {
+  background-color: black ;
   color: white;
+
 }
+
 /* End catalog btn */
 
 /* book overlay */
