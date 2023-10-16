@@ -1,5 +1,5 @@
 .hero {
-  background-image: url('/Catalog-Page/images/portadabiblioteca-1600x686.webp');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/Catalog-Page/images/portadabiblioteca-1600x686.webp');
   background-size: cover;
   background-position: center;
   color: #fff;

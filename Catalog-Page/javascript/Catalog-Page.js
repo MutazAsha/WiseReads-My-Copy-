@@ -31,8 +31,15 @@ document.addEventListener("DOMContentLoaded", function () {
     books.forEach(book => {
       const bookCard = document.createElement('div');
       bookCard.classList.add('Books_card');
+      const urlSearchParams = new URLSearchParams();
+      urlSearchParams.append("id", book["id"]);
+      console.log(book["id"]);
+      const href =
+        "http://127.0.0.1:5500/Book-Details/Book-Details.html?" +
+        urlSearchParams.toString();
+
       bookCard.innerHTML = `
-        <a href="#" class="book__link">
+        <a href="${href}" class="book__link">
           <img src="${book.image}" alt="cover" width="280rem" height="280rem">
           <div class="book__overlay">
             <p>Read More</p>
