@@ -7,7 +7,7 @@
 
 -[Mockup Link](https://www.figma.com/file/wZypmdgo7TZaq4yobEgxpV/WiseReads?type=design&node-id=32-212&mode=design&t=pXt2qioIg7uVi6O5-0)
 
--[My github repo](https://github.com/MutazAsha/WiseReads-My-Copy-)
+-[My github repo](https://github.com/Malath-Yasin/wiseReads_repo)
 
 
 -[Our github organization](https://github.com/WiseReads/WiseReads)
@@ -15,7 +15,7 @@
 
 -[Trello Link](https://trello.com/b/vhgDwSdd/wise-reads)
 
-# Skills Used 
+#Skills Used 
 - HTML
 - CSS
 - Javascript
