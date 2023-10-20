@@ -19,53 +19,6 @@
     <title>WiseReads</title>
   </head>
   <body>
-    <!-- * Start Header -->
-    <!-- <header class="header">
-      <div class="header__box">
-        <a href="./user-profile/UserProfile.html" class="logo-link">
-          <img
-            src="./Home-Page/images/logo.png"
-            alt="An image of a logo"
-            class="logo-img" />
-        </a>
-        <nav class="main-nav">
-          <ul class="main-nav__list">
-            <li class="list-item">
-              <a href="index.html">Home</a>
-            </li>
-            <li class="list-item">
-              <a href="Catalog-Page/Catalog-Page.html">Catalog</a>
-            </li>
-            <li class="list-item">
-              <a href="#">News</a>
-            </li>
-            <li class="list-item">
-              <a href="./About-Us/About-Us.html">About Us</a>
-            </li>
-            <li class="list-item">
-              <a href="./user-profile/contactus.html">Contact Us</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-      <div class="header__box2">
-        <a href="./Search-Page/search-page.html" class="search__link">
-          <div class="search__btn--header">
-            <i class="fa-solid fa-magnifying-glass"></i>
-          </div>
-        </a>
-        <div>
-         <a href="log/register.html"> <button id="login">Login</button></a>
-         <a href="log/register.html">  <button id="signUp">Sign Up</button></a>
-        </div>
-        <div class="hamburger">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </div>
-      </div>
-    </header> -->
-    <!--* End Header -->
     <!--* Start Header -->
     <header class="header">
       <div class="header__box">
@@ -99,11 +52,23 @@
             <i class="fa-solid fa-magnifying-glass"></i>
           </div>
         </a>
-        <div class="register-btns">
+        <!-- <div class="register-btns">
           <a href="./log/register.html"> <button id="login">Login</button></a>
           <a href="./log/register.html">
             <button id="signUp">Sign Up</button></a
           >
+        </div> -->
+        <div id="groupBtns" class="register-btns">
+          <a href="log/register.html"> <button id="login">Login</button></a>
+          <a href="log/register.html"> <button id="signUp">Sign Up</button></a>
+        </div>
+        <div
+          class="nav navbar-nav navbar-right"
+          id="profile-icon"
+          style="display: none">
+          <a href="/user-profile/UserProfile.html" class="text-dark"
+            ><i class="fas fa-user px-3 h4 profile"></i
+          ></a>
         </div>
         <div class="hamburger">
           <span class="bar"></span>
@@ -230,9 +195,7 @@
         <div class="container">
           <h1 class="newBooks-heading" style="margin-top: 10rem">New Books</h1>
           <div class="newBooks-scroll" style="display: flex">
-            <div
-              class="newBooks-arrow"
-              style="margin-top: 15rem; cursor: pointer">
+            <div class="newBooks-arrow">
               <i
                 id="left"
                 class="fa-solid fa-angle-left"
@@ -243,9 +206,7 @@
               <!-- cards for new books  -->
             </div>
 
-            <div
-              class="newBooks-arrow"
-              style="margin-top: 15rem; cursor: pointer">
+            <div class="newBooks-arrow">
               <i
                 id="right"
                 class="fa-solid fa-angle-right"
@@ -309,7 +270,7 @@
               <h3 class="footer-quickLinks__heading">Quick Links</h3>
               <ul class="footer-quickLinks__links">
                 <li class="link-item">
-                  <a href="FAQ/FAQ.html">FAQ</a>
+                  <a href="./FAQ/FAQ.html">FAQ</a>
                 </li>
                 <li class="link-item">
                   <a href="./privacy page/privacy.html">Privacy Policy</a>
@@ -351,5 +312,6 @@
 
     <!--* End Footer Section -->
     <script src="./Home-Page/javascript/Home-Page.js"></script>
+    <script src="/user-profile/logged.js"></script>
   </body>
 </html>

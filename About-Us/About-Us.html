@@ -54,11 +54,19 @@
             <i class="fa-solid fa-magnifying-glass"></i>
           </div>
         </a>
-        <div class="register-btns">
+        <div id="groupBtns" class="register-btns">
           <a href="../log/register.html"> <button id="login">Login</button></a>
           <a href="../log/register.html">
             <button id="signUp">Sign Up</button></a
           >
+        </div>
+        <div
+          class="nav navbar-nav navbar-right"
+          id="profile-icon"
+          style="display: none">
+          <a href="/user-profile/UserProfile.html" class="text-dark"
+            ><i class="fas fa-user px-3 h4 profile"></i
+          ></a>
         </div>
         <div class="hamburger">
           <span class="bar"></span>
@@ -75,15 +83,26 @@
         <div class="inner-container">
           <h1>About Us</h1>
           <p class="text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
-            cupiditate sapiente eaque animi provident temporibus rem. Natus,
-            excepturi cupiditate ex tempore odit dolor molestias provident
-            libero sunt vel voluptate quasi.
+            WiseReads is a community-driven platform committed to connecting
+            book lovers with their next great read. Our mission is to provide a
+            space where readers can explore a diverse range of genres, discover
+            hidden literary gems, and engage in meaningful discussions. With a
+            passion for storytelling, we aim to foster a love for reading that
+            transcends boundaries.
           </p>
           <div class="skills">
-            <span>Online Library</span>
-            <span>Download Books</span>
-            <span>lalalal</span>
+            <div class="features-box">
+              <i class="fa-solid fa-book-open-reader fa-xl"></i>
+              <span>Online Library</span>
+            </div>
+            <div class="features-box">
+              <i class="fa-solid fa-file-arrow-down fa-xl"></i>
+              <span>Download Books</span>
+            </div>
+            <div class="features-box">
+              <i class="fa-solid fa-people-group fa-xl"></i>
+              <span>Collaborative Reading</span>
+            </div>
           </div>
         </div>
       </div>
@@ -96,17 +115,17 @@
           <div class="team-title">
             <h1>Our Team</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
-              soluta nihil hic, et doloremque vitae eos. Nisi, a facilis?
-              Dolores placeat amet excepturi architecto corrupti illo maxime
-              mollitia. Voluptatibus, nam!
+              Meet the dedicated individuals behind WiseReads, each bringing
+              their unique expertise to the table. Together, we work tirelessly
+              to create an enriching reading experience for our users. Get to
+              know us below!
             </p>
           </div>
         </div>
         <div class="team-card">
           <div class="cards">
             <div class="team-img">
-              <img src="images/profile icon.jpg" alt="" />
+              <img src="./images/profile icon.jpg" alt="" />
             </div>
             <div class="team-content">
               <h3>Laith Al-Majali</h3>
@@ -116,7 +135,7 @@
 
           <div class="cards">
             <div class="team-img">
-              <img src="images/profile icon.jpg" alt="" />
+              <img src="./images/profile icon.jpg" alt="" />
             </div>
             <div class="team-content">
               <h3>Osama Tanni</h3>
@@ -126,7 +145,7 @@
 
           <div class="cards">
             <div class="team-img">
-              <img src="images/profile icon.jpg" alt="" />
+              <img src="./images/profile icon.jpg" alt="" />
             </div>
             <div class="team-content">
               <h3>Haitham Al-Zyoud</h3>
@@ -136,7 +155,7 @@
 
           <div class="cards">
             <div class="team-img">
-              <img src="images/profile icon.jpg" alt="" />
+              <img src="./images/profile icon.jpg" alt="" />
             </div>
             <div class="team-content">
               <h3>Malath Yasin</h3>
@@ -146,7 +165,7 @@
 
           <div class="cards">
             <div class="team-img">
-              <img src="images/profile icon.jpg" alt="" />
+              <img src="./images/profile icon.jpg" alt="" />
             </div>
             <div class="team-content">
               <h3>Mutaz Asha</h3>
@@ -156,7 +175,7 @@
 
           <div class="cards">
             <div class="team-img">
-              <img src="images/profile icon.jpg" alt="" />
+              <img src="./images/profile icon.jpg" alt="" />
             </div>
             <div class="team-content">
               <h3>Sajida Ajawin</h3>
@@ -240,5 +259,6 @@
 
     <!--* End Footer Section -->
     <script src="./javascript/About-Us.js"></script>
+    <script src="/user-profile/logged.js"></script>
   </body>
 </html>
